@@ -13,9 +13,9 @@ define(['app/common/lib/env'],function(env){
                     return routes[i];
                 }
             }
-            /*if(slug.match(/env.context$/)!==undefined){
+            if(slug.match(/env.context$/)!==undefined){
                 return self.get('/index.html');
-            }*/
+            }
             console.log("Route: "+slug+" not found")
         }
     }
