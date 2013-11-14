@@ -1,0 +1,36 @@
+{
+	"_id": "4420",
+	"title": "Get a choice of starters on the house, on a liquor bill of 800/-",
+	"whereIsIt": "woodstok – Indira Nagar",
+	"location": {
+		"latitude": "12.96688",
+		"longitude": "77.637291"
+	},
+	"meta": {
+		"title": "Woodstok (Resto-Cafe) Indiranagar | Starters on the house at Vgulp",
+		"description": "Woodstok Resto-Cafe at Indiranagar offers a choice of starters on the house on a liquor bill exceeding only 800, accounting to more than 35% discount on bill. Check out more!"
+	},
+	"facebook": {
+		"title": "Woodstok (Resto-Cafe) Indiranagar | Starters on the house at Vgulp",
+		"description": "Woodstok Resto-Cafe at Indiranagar offers a choice of starters on the house on a liquor bill exceeding only 800, accounting to more than 35% discount on bill. Check out more!",
+		"imageUrl": "http://vgulp.com/img/woodstok-deal-starters.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/woodstok-indira-nagar.html"
+	},
+	"images": [
+		"woodstok-deal-page.jpg",
+		"woodstok-deal-starters.jpg"
+	],
+	"iSave": "35%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n                woodstok – 3777, Domlur Service Road, HAL 2nd Stage, Indiranagar, Bangalore<br/><br/>\r\n                 <span>Phone: 08042115042, 9686191997, 9686191998</span><br>\r\n                </span>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>Vgulp presents a choice of starters on the house, when your liquor bill exceeds 800/- at woodstok (Resto-cafe) Indira Nagar. If you are a great food lover, enjoy your drink, and a choice of starters is absolutely free to delight your experience. woodstok has received an average 4+ ratings by food critics, and we highly recommend it.</p>\r\n                <p>The choice of starters include - Chicken wings : 285, Corn salt and pepper : 210, Chacos nachos : 285, Classic corn and cheese patty : 200, Honey chilli potato : 235, Spiced Potato wedges : 210, Chicken mini kieves : 210 </p>\r\n                <p>The offer is valid on weekdays and weekends. With this awesome offer in woodstok Indira Nagar, the value just got bigger.</p>\r\n                <ul>\r\n                    <li>Offer vaild round the clock, all days including weekends</li>\r\n                    <li>Offer valid on select starters only</li>\r\n                    <li>The Restaurant may get crowded, check in advance to confirm your reservation</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liquor.</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unless absolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "<h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>The food on offer at woodstok has an average 4+ ratings from food critics. Enjoy a choice of signature starters free!</li>\r\n                    <li>Offer is valid on weekdays and weekends, round the clock.</li></ul>"
+	},
+	"module": {
+		"name": "woodstock-indira-nagar",
+		"slug": "bangalore-drink-deals/woodstok-indira-nagar.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T11:29:39.755Z",
+	"updated_at": "2013-11-11T11:29:39.755Z"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "52835de9e59c26a20e000001",
+	"created_at": "2013-11-13T11:09:29.309Z",
+	"facebook": {
+		"title": "About Vgulp - Bottle Brags",
+		"description": "It all started at a bar out of boredom to do something bigger. Learn what we are up to, why we came into being, and how we are different etc. Not enough? ask your friendly bartender.",
+		"imageUrl": "http://vgulp.com/images/peacock-deal-page.jpg",
+		"pageUrl": "http://www.vgulp.com/about.html"
+	},
+	"images": [],
+	"meta": {
+		"title": "About Vgulp - Bottle Brags",
+		"description": "It all started at a bar out of boredom to do something bigger. Learn what we are up to, why we came into being, and how we are different etc. Not enough? ask your friendly bartender."
+	},
+	"module": {
+		"name": "about",
+		"slug": "about.html"
+	},
+	"template": "www/js/app/plain-html-modules/views/general-site-page.html",
+	"updated_at": "2013-11-13T11:09:29.309Z"
+}

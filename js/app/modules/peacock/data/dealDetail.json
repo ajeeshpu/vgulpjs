@@ -1,0 +1,35 @@
+{
+	"_id": "3148",
+	"title": "**Unlimited** (liquor, starters and buffet) at just 1499/-. Awesomeness!",
+	"whereIsIt": "The Peacock Indira Nagar",
+	"location": {
+		"latitude": "12.974716",
+		"longitude": "77.641161"
+	},
+	"meta": {
+		"title": "Peacock Indiranagar | Unlimited liquor, starters, buffet at Vgulp",
+		"description": "Peacock at 100 ft road, Indiranagar offers unlimited select liquor, unlimited starters and a magnificient buffet on Vgulp - The popular deals portal for drinkers in bangalore"
+	},
+	"facebook": {
+		"title": "Peacock Indiranagar | Unlimited liquor, starters, buffet at Vgulp",
+		"description": "Peacock at 100 ft road, Indiranagar offers unlimited select liquor, unlimited starters and a magnificient buffet on Vgulp - The popular deals portal for drinkers in bangalore. Check out more!",
+		"imageUrl": "http://vgulp.com/images/peacock-deal-page.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/peacock-indira-nagar.html"
+	},
+	"images": [
+		"peacock-deal-page.jpg"
+	],
+	"iSave": "30%",
+	"merchant": "<h5>Merchant Details</h5> Peacock - 57, 100 Feet Road, Indiranagar, Bangalore<br/> <span>Phone: 9686 377 667, 9686 377 553</span><br>",
+	"content": {
+		"about": "<h2>About the deal</h2> <p>Vgulp presents a choice of unlimited liquor*, unlimited starters and unlimited buffet at The Peacock, Fine dine restaurant and bar, Indiranagar at just 1500/- per person. If you are looking to have a chill time with friends, at one of the most popular fine dines in Indira Nagar, without having to worry too much about the bill, we recommend this for you.</p> <p>Unlimited liquor offer is capped at the maximum time of 2.5 hours, you can have starters and buffet for any time you want. The offer is valid on Royal challenge, Signature, Mansion House, Blue Riband, Smirnoff, Old Monk; Beers include King Fisher and Tuborg, You can also avail it on Signature Cocktails - Dark Rum Mojito, Cosmopolitan, Mojito and Caprioska.</p> <p>Peacock’s starters and food is highly recommended with many 5 star ratings from food critics. What more can you ask - the offer is valid on weekdays and weekends. With this awesome offer in Peacock, Indira Nagar, you just unwind and chill and forget about the bill.</p> <ul> <li>Offer vaild round the clock, all days including weekends</li> <li>Offer valid on select liquor mentioned above, and capped at 2.5 hours</li> <li>The Restaurant may get crowded, check in advance to confirm your reservation</li> <li>One voucher valid for one person only</li> <li>Present your voucher in email on your phone</li> <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liquor.</li> <li>Cannot be redeemed with cash</li> <li>Please do not print to waste paper, unless absolutely necessary</li></ul>",
+		"whyWeRecommend": "<h2>Why we recommend</h2> <ul> <li>Unlimited liquor, unlimited starters and buffet in Peacock, a fine dine at 100 feet road Indira Nagar at just 1499/- is quite a bet</li> <li>Offer is valid on weekdays and weekends, round the clock</li> </ul>"
+	},
+	"module": {
+		"name": "peacock",
+		"slug": "bangalore-drink-deals/peacock-indira-nagar.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T10:01:49.873Z",
+	"updated_at": "2013-11-11T10:01:49.873Z"
+}

@@ -1,0 +1,24 @@
+<div id="dealClaimModal" class="modal hide fade" data-bind="visible:dealClaimShow">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Get This Deal In Your Inbox</h3>
+    </div>
+    <div class="modal-body">
+        <form data-bind="submit:claimThisDeal">
+            <input class="claimDeal input-xxlarge" placeholder="Enter your email here" data-bind="value:email">
+        </form>
+        <div class="alert alert-block alert-success fade in margin-top-20" data-bind="visible:dealClaimSuccessful">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4 class="alert-heading text-center">Super!</h4>
+            <p class="text-center">You are what we had in mind when we started this. Check your deal in your mailbox!</p>
+        </div>
+        <div class="alert alert-block alert-error fade in margin-top-20" data-bind="visible:dealClaimError">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4 class="alert-heading text-center">Oh shucks! You got an error!</h4>
+            <p class="text-center">We don&apos;t really know what the heck happened for now. Please try again.</p>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn btn-primary btn-large btn-block" data-bind="click:claimThisDeal">Claim This Deal</a>
+    </div>
+</div>

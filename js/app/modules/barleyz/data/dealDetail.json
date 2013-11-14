@@ -1,0 +1,35 @@
+{
+	"_id": "3690",
+	"title": "Get two 330 ml pints free when you eat for 1500/-",
+	"whereIsIt": "Barleyz – The Brew House, Microbrewery, Koramangala",
+	"location": {
+		"latitude": "12.937646",
+		"longitude": "77.62713"
+	},
+	"meta": {
+		"title": "Barleyz Koramangala| Vgulp Deal offers 35% off",
+		"description": "Deals on drinks in bars, pubs, clubs, lounges and liquor stores around bangalore. Booze deals koramangala"
+	},
+	"facebook": {
+		"title": "Barleyz Koramangala| Vgulp Deal offers 35% off",
+		"description": "Deals on drinks in bars, pubs, clubs, lounges and liquor stores around bangalore. Booze deals koramangala",
+		"imageUrl": "http://vgulp.com/img/barleyz-the-brew-house-koramangala-drink-deals.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/barleyz-the-brew-house-koramangala.html"
+	},
+	"images": [
+		"barleyz-the-brew-house-koramangala-drink-deals.jpg"
+	],
+	"iSave": "35%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n                Barleyz – The Brew House; 2/3, 80ft Road, Sony World Junction, Koramangala, Bangalore<br/><br/>\r\n                Outdoor Seating, Open Terrace, take-out, restaurant, microbrewery, big screen, bar, parking, cards accepted, good for groups, Cusines: continental, North indian and Italian<br><br>\r\n                 <span>Phone: 9342497590</span><br>\r\n                </span>\r\n",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>Visiting a microbrewery and having fresh beer straight out of the machine has become a style statement among bangaloreans. And why not? It’s freshly brewed beer. Microbreweries are a trend. Vgulp presents this deal for you to experience a microbrewery. Have food, and the beer comes for free. GET 2 330 ML PINTS FREE WHEN YOU EAT FOR 1500/- at Barleyz – The Brew House, Koramangala. Undoubtedly, one of the best breweries, and the most happening joints in Koramangala. Spread in 2 floors including an open terrace on the top, Barleyz is a sight to see.</p>\r\n                <ul>\r\n                    <li>Offer valid only on all days</li>\r\n                    <li>The Restaurant may get crowded, check in advance</li>\r\n                    <li>Only 2 330 ml pints will be supplied for free, extra will be charged</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liquor. Please do not abuse alcohol.</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unless absolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "<h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>Experience a Micro Brewery, while grabbing an amazing discount</li>\r\n                    <li>Valid on weekdays and weekends</li>\r\n                    <li>No time cap</li>\r\n                    <li>No additional clauses</li></ul>"
+	},
+	"module": {
+		"name": "barleyz",
+		"slug": "bangalore-drink-deals/barleyz-the-brew-house-koramangala.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T12:09:18.728Z",
+	"updated_at": "2013-11-11T12:09:18.728Z"
+}

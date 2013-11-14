@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"title": "Peacock Indiranagar | Unlimited liquor, starters, buffet at Vgulp",
+		"description": "Deals on drinks in bars, pubs, clubs, lounges and liquor stores around bangalore. Booze deals koramangala, Indira Nagar, Whitefield, HSR Layout, Banashankari"
+	},
+	"facebook": {
+		"title": "Peacock Indiranagar | Unlimited liquor, starters, buffet at Vgulp",
+		"description": "Deals on drinks in bars, pubs, clubs, lounges and liquor stores around bangalore. Booze deals koramangala, Indira Nagar, Whitefield, HSR Layout, Banashankari",
+		"imageUrl": "http://vgulp.com/images/peacock-deal-page.jpg",
+		"pageUrl": "http://www.vgulp.com"
+	},
+	"module": {
+		"name": "index",
+		"slug": "index.html"
+	},
+	"template": "www/js/app/plain-html-modules/views/general-site-page.html",
+	"images": [],
+	"created_at": "2013-11-11T19:40:33.127Z",
+	"updated_at": "2013-11-11T19:40:33.127Z",
+	"_id": "528132b172f1576c30000001"
+}
