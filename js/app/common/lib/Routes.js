@@ -15,6 +15,7 @@ define(['app/common/lib/env'],function(env){
             if(slug.match(/env.context$/)){
                 return self.get('/index.html');
             }
+            console.log("Route: "+slug+" not found")
         }
     }
     return Route;
