@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: '../js/lib',
+    baseUrl: 'js/lib',
     shim:{
         'koExternalTemplateEngine':{
             deps:['jquery','knockout'],
