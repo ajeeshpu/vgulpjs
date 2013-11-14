@@ -1,4 +1,4 @@
-define([],function(){
+define(['app/common/lib/env'],function(env){
     'use strict';
     var Route=function(routes){
         var self=this;
@@ -8,7 +8,12 @@ define([],function(){
 
                 if(routes[i].slug===slug || "/".concat(routes[i].slug)  ===slug){
                     return routes[i];
+                }else if(slug.match(/routes[i].slug$/)){
+                    return routes[i];
                 }
+            }
+            if(slug.match(/env.context$/)){
+                return self.get('/index.html');
             }
         }
     }
