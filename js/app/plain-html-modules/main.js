@@ -39,7 +39,7 @@ define("main",["json!app/modules/routes.json","app/common/lib/Routes",'hoganTemp
     console.log("I have loaded this",$('head title')[0],PlainContentVM,window.location.host,env);
     var route=new Routes(routes).get("/vgulpjs/index.html");
     var dataUrl='app'.concat("/modules/").concat(route.name).concat('/data/dealDetail.json');
-    var data=require(["json!"+dataUrl,"text!app/plain-html-modules/views"+window.location.pathname],function(data,slugHtml) {
+    var data=require(["json!"+dataUrl,"text!app/plain-html-modules/views"+route.module.slug],function(data,slugHtml) {
         data.env=env
         ko.applyBindings(new PlainContentVM(data,slugHtml),document.getElementById("sitePage"));
     })
