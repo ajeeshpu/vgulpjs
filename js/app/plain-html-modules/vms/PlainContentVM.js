@@ -5,11 +5,11 @@ define(["text!app/request-invite/views/requestInviteWithGo.html","text!app/plain
             BaseDealVM.call(self, content)
             self.urlHash={}
             self.createUrlHash=function(){
+                self.urlHash.slide_four="bangalore-drink-deals/doff-the-pub-and-lounge-indira-nagar.html";
+                self.urlHash.slide_five="bangalore-drink-deals/lock-n-load-club-sahakara-nagar.html";
                 self.urlHash.slide_one="bangalore-drink-deals/peacock-indira-nagar.html";
                 self.urlHash.slide_two="bangalore-drink-deals/chairmans-jade-resort-devanahalli.html";
                 self.urlHash.slide_three="bangalore-drink-deals/woodstok-indira-nagar.html";
-                self.urlHash.slide_four="bangalore-drink-deals/via-milano-italian-restaurant-lounge-koramangala.html";
-                self.urlHash.slide_five="bangalore-drink-deals/barleyz-the-brew-house-koramangala.html";
             }
             self.requestInviteSmallTemplate=function(){
                 return Hogan.compile(requestInviteSmallHtml);
