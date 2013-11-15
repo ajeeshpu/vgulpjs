@@ -1,0 +1,35 @@
+{
+	"_id": "4948",
+	"title": "Straight 30% off on a bucket of 4 domestic beers, and 25% off on a bucket of 4 imported beers",
+	"whereIsIt": "The Doff, Pub and Lounge, Indira Nagar",
+	"location": {
+		"latitude": "12.977732",
+		"longitude": "77.640719"
+	},
+	"meta": {
+		"title": "Doff Pub & Lounge, Indiranagar | 30% Off on Beer!",
+		"description": "Doff Pub & Lounge, one of the most renowned pub in Indiranagar offers 30% off on Domestic Beer, and 25% off on imported beer, only on Vgulp, Grab’em and Gulp’on!"
+	},
+	"facebook": {
+		"title": "Doff Pub & Lounge, Indiranagar | 30% Off on Domestic Beer, 25% Off on Imported Beer",
+		"description": "Yeah that’s right. Now watch your favorite EPL screenings / hang out with friends while saving loads on beer buckets. Valid round the clock, only on Vgulp. Love the offer? Share with friends.",
+		"imageUrl": "http://vgulp.com/img/doff-pub-lounge-indiranagar-bangalore.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/doff-the-pub-and-lounge-indira-nagar.html"
+	},
+	"images": [
+		"doff-pub-lounge-indiranagar-bangalore.jpg"
+	],
+	"iSave": "30%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n                Doff Pub & Lounge\r\nNo. 654, 10th A Main, 1st stage, Navajyothi Building, 2nd Floor\r\n100 Ft Road, Indiranagar, Bangalore\r\n<br/><br/>\r\n                 <span>Phone: 9886734068</span><br>\r\n                </span>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>** This is an offer on popular request by our users who visit Doff regularly for premier league screenings **</p>\r\n                <p>Vgulp presents savings on domestic and imported beer at the renowned Doff Pub and Lounge Indira Nagar. Doff is located on the third floor, on the 100 feat road, situated near the crossing point of 100 ft road, and the CMH road in Indira Nagar. Undoubtedly, one of the most happening Lounge Pubs in Indiranagar. Doff is extensively popular and gets crowded during the weekends and on the days of English Premier League screenings</p>\r\n                <p>If you are taking your girlfriend out on a date, or a passive cozy chill time with friends, or watch a happening game of football – think no second. Grab this deal and Gulp on!</p>\r\n                <ul>\r\n                    <li>Offer vaild round the clock, all days including weekends</li>\r\n                    <li>Check with the restaurant to see beers on offer, and the price before you order</li>\r\n                    <li>The pub being popular usually gets crowded, check in advance to confirm your reservation</li>\r\n                    <li>One voucher valid per bill</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liquor</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unless absolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "<h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>We are regular visitors and fans of Doff Pub & Lounge, and we recommend it heavily</li>\r\n                    <li>Offer is valid on weekdays and weekends, round the clock</li></ul>"
+	},
+	"module": {
+		"name": "doff-the-pub-n-lounge",
+		"slug": "bangalore-drink-deals/doff-the-pub-and-lounge-indira-nagar.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-15T17:21:59.142Z",
+	"updated_at": "2013-11-15T17:21:59.142Z"
+}
