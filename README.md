@@ -13,9 +13,9 @@ I know i could have made this into a single page app but there are future plans 
 
 This site was generated using a self woven CMS written in node.
 
-
-All the .json files are copyrighted to Vgulp.
+License
+=======
+All the *.json,image files are copyrighted to Vgulp.You may not reuse this anywhere else without my permission.
 
 The other Js files are on MIT License.
-
-Long live JS, Knockout, RequireJS, Hogan. !
+Long live JS,Node, Knockout, RequireJS, Hogan. !
