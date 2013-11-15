@@ -7,8 +7,8 @@
 		"longitude": "77.585948"
 	},
 	"meta": {
-		"title": "Peacock Indiranagar | Unlimited liquor, starters, buffet at Vgulp",
-		"description": "Peacock at 100 ft road, Indiranagar offers unlimited select liquor, unlimited starters and a magnificient buffet on Vgulp - The popular deals portal for drinkers in bangalore"
+		"title": "Lock n Load Club, Sahakara Nagar | Unlimited Liquor Offer",
+		"description": "Lock n Load Club, in Chairman’s Resorts, Sahakara Nagar is home to some awesome parties in North Bangalore, and is now offering unlimited liquor offers only on Vgulp, Grab’em and Gulp’on!"
 	},
 	"facebook": {
 		"title": "Lock n Load Club, Sahakara Nagar | Unlimited Liquor Offer",
@@ -30,6 +30,6 @@
 		"slug": "bangalore-drink-deals/lock-n-load-club-sahakara-nagar.html"
 	},
 	"template": "www/js/app/deal/views/deal-template.html",
-	"created_at": "2013-11-15T17:36:30.322Z",
-	"updated_at": "2013-11-15T17:36:30.322Z"
+	"created_at": "2013-11-15T18:30:26.200Z",
+	"updated_at": "2013-11-15T18:30:26.200Z"
 }
