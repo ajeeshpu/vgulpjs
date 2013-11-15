@@ -1,6 +1,6 @@
 define([],function(hostname){
     return {
-        'baseUrl':"http://localhost:8080/sammy",
+        'baseUrl':"http://beta.app.vgulp.com",
         'context':'vgulpjs'
     }
 })
