@@ -1,10 +1,5 @@
 [
 	{
-		"name": "peacock",
-		"slug": "bangalore-drink-deals/peacock-indira-nagar.html",
-		"method": "GET"
-	},
-	{
 		"name": "chairmanz-resort",
 		"slug": "bangalore-drink-deals/chairmans-jade-resort-devanahalli.html",
 		"method": "GET"
@@ -82,6 +77,11 @@
 	{
 		"name": "careers/inside-sales",
 		"slug": "careers/inside-sales.html",
+		"method": "GET"
+	},
+	{
+		"name": "peacock",
+		"slug": "bangalore-drink-deals/peacock-indira-nagar.html",
 		"method": "GET"
 	},
 	{
