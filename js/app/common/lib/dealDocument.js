@@ -1,17 +1,1 @@
-define([], function () {
-    var Deal = function (data) {
-        data.about = function () {
-            return data.content.about ;//$('<div/>').html(data.content.about).text()
-        }
-        data.whyWeRecommend = function () {
-            return data.content.whyWeRecommend;//$('<div/>').html().text()
-        }
-        data.merchantDetails = function () {
-            return data.merchant;//$('<div/>').html(data.merchant).text()
-        }
-        return data
-    }
-
-    return Deal;
-
-})
+define([],function(){var e=function(e){return e.about=function(){return e.content.about},e.whyWeRecommend=function(){return e.content.whyWeRecommend},e.merchantDetails=function(){return e.merchant},e};return e});

@@ -1,6 +1,1 @@
-define([],function(hostname){
-    return {
-        'baseUrl':"http://beta.app.vgulp.com",
-        'context':'vgulpjs'
-    }
-})
+define([],function(e){return{baseUrl:"http://beta.app.vgulp.com",context:"vgulpjs"}});
