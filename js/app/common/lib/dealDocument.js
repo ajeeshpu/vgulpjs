@@ -1,1 +1,12 @@
-define([],function(){var e=function(e){return e.about=function(){return e.content.about},e.whyWeRecommend=function(){return e.content.whyWeRecommend},e.merchantDetails=function(){return e.merchant},e};return e});
+define([], function() {
+    var Deal = function(data) {
+        return data.about = function() {
+            return data.content.about;
+        }, data.whyWeRecommend = function() {
+            return data.content.whyWeRecommend;
+        }, data.merchantDetails = function() {
+            return data.merchant;
+        }, data;
+    };
+    return Deal;
+});;

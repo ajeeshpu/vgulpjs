@@ -1,1 +1,35 @@
-define(["jquery","app/age-gate/vms/ageGate"],function(e,t){var n=function(n,r){var i=this;i.baseUrl=n.baseUrl,i.id=r,i.ageGate=t,i.dealClaimShow=ko.observable(!0),i.email=ko.observable(""),i.dealClaimSuccessful=ko.observable(!1),i.dealClaimError=ko.observable(!1),i.init=function(){console.log("Activated VM")},i.showDealClaim=function(){if(!i.ageGate.isAgeGateVerified())return;i.dealClaimShow(!0)},i.clearDealStatus=function(){i.dealClaimError(!1),i.dealClaimSuccessful(!1)},i.claimThisDeal=function(t,n){if(i.email()=="")return;var r=e.ajax({url:i.baseUrl.concat("/deal/claimOpenDeals/").concat(i.id),type:"POST",data:{email:i.email(),id:i.id},dataType:"json"});r.fail(function(e,t){i.dealClaimSuccessful(!1),i.dealClaimError(!0)}),r.done(function(e,t){i.dealClaimSuccessful(!0),i.dealClaimError(!1)}),r.always(function(e,t){console.log(t==="error"),t==="error"&&(i.dealClaimSuccessful(!1),i.dealClaimError(!0))})},i.updateLocation=function(e){console.log("Preferred Locations"+ko.toJSON(e))}};return n});
+define([ "jquery", "app/age-gate/vms/ageGate" ], function($, ageGate) {
+    var DealPageApplicationViewModel = function(data, id) {
+        var self = this;
+        self.baseUrl = data.baseUrl, self.id = id, self.ageGate = ageGate, self.dealClaimShow = ko.observable(!0), self.email = ko.observable(""), self.dealClaimSuccessful = ko.observable(!1), self.dealClaimError = ko.observable(!1), self.init = function() {
+            console.log("Activated VM");
+        }, self.showDealClaim = function() {
+            if (!self.ageGate.isAgeGateVerified()) return;
+            self.dealClaimShow(!0);
+        }, self.clearDealStatus = function() {
+            self.dealClaimError(!1), self.dealClaimSuccessful(!1);
+        }, self.claimThisDeal = function(id, data) {
+            if (self.email() == "") return;
+            var request = $.ajax({
+                url: self.baseUrl.concat("/deal/claimOpenDeals/").concat(self.id),
+                type: "POST",
+                data: {
+                    email
+: self.email(),
+                    id: self.id
+                },
+                dataType: "json"
+            });
+            request.fail(function(data, jqxr) {
+                self.dealClaimSuccessful(!1), self.dealClaimError(!0);
+            }), request.done(function(data, jqxr) {
+                self.dealClaimSuccessful(!0), self.dealClaimError(!1);
+            }), request.always(function(jqxr, text) {
+                console.log(text === "error"), text === "error" && (self.dealClaimSuccessful(!1), self.dealClaimError(!0));
+            });
+        }, self.updateLocation = function(form) {
+            console.log("Preferred Locations" + ko.toJSON(form));
+        };
+    };
+    return DealPageApplicationViewModel;
+});;

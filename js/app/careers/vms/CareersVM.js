@@ -1,1 +1,13 @@
-define(["text!app/careers/views/careersLayout.html","app/deal/vms/baseDealVM","require"],function(e,t,n){var r=function(r){var i=this;t.call(i,r),i.requestInviteTemplate=function(){return Hogan.compile(requestInviteHtml)},i.careersLayoutTemplate=function(){return Hogan.compile(e)},i.afterRender=function(){i.rendered(!0),n(["domReady!","app/deal/lib/shareThis","jquery"],function(e,t,n,r){})}};return r.prototype=Object.create(t.prototype),r});
+define([ "text!app/careers/views/careersLayout.html", "app/deal/vms/baseDealVM", "require" ], function(layoutHTML, BaseDealVM, require) {
+    var PlainContentVM = function(content) {
+        var self = this;
+        BaseDealVM.call(self, content), self.requestInviteTemplate = function() {
+            return Hogan.compile(requestInviteHtml);
+        }, self.careersLayoutTemplate = function() {
+            return Hogan.compile(layoutHTML);
+        }, self.afterRender = function() {
+            self.rendered(!0), require([ "domReady!", "app/deal/lib/shareThis", "jquery" ], function(doc, shareThis, $, prettyPhoto) {});
+        };
+    };
+    return PlainContentVM.prototype = Object.create(BaseDealVM.prototype), PlainContentVM;
+});;

@@ -1,1 +1,50 @@
-define(["jquery","knockout","app/request-invite/lib/requestInvite.ko.bindings"],function(e,t){var n=function(t){var n=this;n.baseUrl=t.baseUrl,n.id=ko.observable(""),n.show=ko.observable(!1),n.email=ko.observable(""),n.preferredLocationsQuery=ko.observable(""),n.success=ko.observable(!1),n.failure=ko.observable(!1),n.showNext=ko.observable(!1),n.showShareThis=ko.observable(!1),n.showTopBar=ko.observable(!0),n.close=function(){n.showRequestInvite(!1)},n.hideTopBar=function(){n.showTopBar(!1)},n.reset=function(){n.success(!1),n.failure(!1),n.show(!1),n.showShareThis(!1)},n.ask=function(){n.reset();if(!n.email())return;var t=e.ajax({url:n.baseUrl.concat("/userRegistration/requestInvite"),type:"POST",data:{email:n.email()},dataType:"json"});t.fail(function(e,t){n.failure(!0),n.success(!1),n.show(!1)}),t.done(function(e,t){n.id(e.id),n.failure(!1),n.success(!0),n.show(!0)}),t.always(function(e,t){console.log(t==="error"),t==="error"&&(n.success(!1),n.failure(!0))})},n.updateInvite=function(t){console.log(n.preferredLocationsQuery()),console.log("Preferred Locations:",e(t).find(n.preferredLocationsQuery()).val());var r=e.ajax({url:n.baseUrl.concat("/requestInvite/update/")+n.id(),type:"POST",data:"&preferredLocations="+e(t).find(n.preferredLocationsQuery()).val(),dataType:"json"});r.fail(function(e,t){n.failure(!0),n.success(!1)}),r.done(function(e,t){n.failure(!1),n.success(!0),n.show(!1),n.showShareThis(!0)}),r.always(function(e,t){console.log(t==="error"),t==="error"&&(n.success(!1),n.failure(!0),n.showShareThis(!1))})},n.openShareThis=function(){n.show(!1),n.showShareThis(!0)}};return n});
+define([ "jquery", "knockout", "app/request-invite/lib/requestInvite.ko.bindings" ], function($, knockout) {
+    var RequestInvite = function(data) {
+        var self = this;
+        self.baseUrl = data.baseUrl, self.id = ko.observable(""), self.show = ko.observable(!1), self.email = ko.observable(""), self.preferredLocationsQuery = ko.observable(""), self.success = ko.observable(!1), self.failure = ko.observable(!1), self.showNext = ko.observable(!1), self.showShareThis = ko.observable(!1), self.showTopBar = ko.observable(!0), self.close = function() {
+            self.showRequestInvite(!1);
+        }, self.hideTopBar = function() {
+            self.showTopBar(!1);
+        }, self.reset = function() {
+            self.success(!1), self.failure(!1), self.show(!1), self.showShareThis(!1);
+        }, self.ask = function() {
+            self.reset();
+            if (!self.email()) return;
+            var request = $.ajax({
+                url: self.baseUrl.concat("/userRegistration/requestInvite"
+),
+                type: "POST",
+                data: {
+                    email: self.email()
+                },
+                dataType: "json"
+            });
+            request.fail(function(data, jqxr) {
+                self.failure(!0), self.success(!1), self.show(!1);
+            }), request.done(function(data, jqxr) {
+                self.id(data.id), self.failure(!1), self.success(!0), self.show(!0);
+            }), request.always(function(jqxr, text) {
+                console.log(text === "error"), text === "error" && (self.success(!1), self.failure(!0));
+            });
+        }, self.updateInvite = function(form) {
+            console.log(self.preferredLocationsQuery()), console.log("Preferred Locations:", $(form).find(self.preferredLocationsQuery()).val());
+            var request = $.ajax({
+                url: self.baseUrl.concat("/requestInvite/update/") + self.id(),
+                type: "POST",
+                data: "&preferredLocations=" + $(form).find(self.preferredLocationsQuery
+()).val(),
+                dataType: "json"
+            });
+            request.fail(function(data, jqxr) {
+                self.failure(!0), self.success(!1);
+            }), request.done(function(data, jqxr) {
+                self.failure(!1), self.success(!0), self.show(!1), self.showShareThis(!0);
+            }), request.always(function(jqxr, text) {
+                console.log(text === "error"), text === "error" && (self.success(!1), self.failure(!0), self.showShareThis(!1));
+            });
+        }, self.openShareThis = function() {
+            self.show(!1), self.showShareThis(!0);
+        };
+    };
+    return RequestInvite;
+});;
