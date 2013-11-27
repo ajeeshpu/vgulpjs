@@ -1,5 +1,6 @@
 <div class="row-fluid white-section">
     <div id="header" class="navbar">
+
         <div class="navbar-inner">
             <div class="container">
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -26,6 +27,15 @@
             </div>
         </div><!-- /navbar-inner -->
     </div>       <!-- Navbar end-->
+    <div class="row-fluid text-center" data-bind="visible: router.isNavigating">
+        <div class="span4 offset4">
+            <div class="alert alert-warn text-center">
+                <span>Loading..</span>
+                <img src="../img/ajax-loader.gif">
+            </div>
+        </div>
+    </div>
+
     <!-- ko router: {transition:'entrance', cacheViews:true} --><!-- /ko -->
     <div id="footer" class="row-fluid white-section margin-top-20">
         <div class="span12">
