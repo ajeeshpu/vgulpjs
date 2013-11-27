@@ -31,7 +31,7 @@
             deps: ['jquery'],
             exports: 'jQuery'
         },
-        'prettyPhoto/jqueryPrettyPhoto':{
+        'prettyPhoto/jqueryprettyPhoto':{
             deps:['jquery','jqueryPlugins/jquery.migrate.1.2.1'],
             exports:'jQuery'
         },
