@@ -10,11 +10,11 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://www.gobblengulp.com/about.html</loc>
+        <loc>http://www.gobblengulp.com/index.html#!about.html</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://www.gobblengulp.com/business.html</loc>
+        <loc>http://www.gobblengulp.com/index.html#!business.html</loc>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
