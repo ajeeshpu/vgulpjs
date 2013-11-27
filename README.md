@@ -8,8 +8,7 @@ It is currently not optimized, however there are future plans (very very soon) t
 to the async RequireJS dependencies being loaded. 
 
 Hoping for the web to be a lot better without buying hosting.
-I know i could have made this into a single page app but there are future plans to accomodate snapshoting for Google SEO.
-( This is not reason enough for the '#' urls but i preferred this way as this took very little time)
+Moving to Durandal , this was a lot easier (should have done this earlier).
 
 This site was generated using a self woven CMS written in node.
 

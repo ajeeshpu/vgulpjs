@@ -1,0 +1,37 @@
+{
+	"meta": {
+		"title": "Sales Manager",
+		"description": "Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email"
+	},
+	"facebook": {
+		"title": "Sales Manager at Vgulp",
+		"description": "Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email",
+		"imageUrl": "http://www.vgulp.com/hustlers1.jpg",
+		"pageUrl": "http://www.vgulp.com/careers/sales-manager.html"
+	},
+	"module": {
+		"name": "careers/sales-manager",
+		"slug": "careers/sales-manager.html"
+	},
+	"template": "www/js/app/careers/views/careersPage.html",
+	"showAgeGate": "false",
+	"numberOfOpenPositions": "1",
+	"location": "Bangalore",
+	"introductionHtml": "                    <p class=\"lead\">Here’s your chance to be in the best job ever. Spend your days bar hopping!\r\n                    </p> <br>\r\n                    <p>We were launched in June 2013, and received funding in August. We are addressing a no brainer idea in a 35 Bn USD market in India, that had little takers for. Vgulp solves a simple problem - helping drinkers (like us, you?) find the best deals and discounts in the most happening joints in town. Through this we improve walk-ins and help merchants meet their business objectives.</p>\r\n                    <br>\r\n                    <p>Being a Sales Manager for Vgulp, you are expected to be a hustler. We expect you to create partnerships by canvassing your way through, or buying a drink for the local bartender to create unbeatable offers for our subscribers, without burning a hole in their wallet. Unlike our competitors who sell anything from nail polish to spa to auto parts and car wash, we do receive a warm welcome because of our value proposition that we have built along the way.</p>\r\n                    <br>\r\n                    <p>While we are not particular about you having a degree / years into your resume, we would want you to have a sound knowledge of how local merchants run advertising campaigns to meet their objectives, how social media and digital can be leveraged to influence consumer decisions. While they aren’t defacto standards for applying to us, they could go a long way in ensuring a high flying career for you at Vgulp.</p>\r\n",
+	"skills": {
+		"title": "What is expected of you",
+		"descriptionHtml": "<ul>\r\n                        <li>Identify, prospect, meet, negotiate and close deals with local merchants that are irresistible by our consumer base</li>\r\n                        <li>Innovate through being creative in the way you create and structure deals</li>\r\n                        <li>Stick to the basics - preserve the value proposition of Vgulp at all times, at the same time winning enough deals that would put us in the national map.</li>\r\n                        <li>Establish Vgulp as the defacto standard for deals on alcohol to generate walk-ins for the prospective merchants</li>\r\n                        <li>Maintain relationship and coordinate with customer success teams to ensure the merchants stay with us for the longer course.</li>\r\n                    </ul>"
+	},
+	"otherPositions": [
+		"<a href=\"#!careers/inside-sales.html\">Inside Sales</a> ",
+		" <a href=\"#!careers/marketing.html\">Marketing</a>"
+	],
+	"weLoveYouIf": {
+		"title": "What you should be?",
+		"descriptionHtml": "<ul class=\"bulleted\">\r\n                    <li>0-2 years experience in selling to local businesses in Bangalore, experience in online businesses in the hyper local market is a plus. When the mentioned is not there, be prepared with logical answers to our questions around the same.</li>\r\n                    <li>Experience in cutting through the clutter - from cold calling, to prospecting to closing a sale independently, and helping the company meet overall objectives</li>\r\n                    <li>An eye for overall economics, while staying focussed on one-on-one transactions</li>\r\n                </ul>\r\n<br>\r\n<h2>Benefits</h2>\r\n<ul>\r\n                    <li>Competitive Salary and incentives</li>\r\n                    <li>Work from home</li>\r\n                    <li>Flexible work hours</li>\r\n                    <li>Just appropriate dressing - No blazers, ties, formals</li>\r\n                    <li>Stock Options</li>\r\n                    <li>Challenging career and growth</li>\r\n                    <li>irresistible leaves and holidays</li>\r\n                    <li>Company sponsored booze on Fridays</li>\r\n                    <li>Unlimited fun</li>\r\n                    <li>Need anything more?</li>\r\n                </ul>"
+	},
+	"images": [],
+	"created_at": "2013-11-14T06:44:09.827Z",
+	"updated_at": "2013-11-14T06:44:09.827Z",
+	"_id": "528471398580595205000005"
+}

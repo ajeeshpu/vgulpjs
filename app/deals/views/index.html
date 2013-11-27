@@ -1,0 +1,120 @@
+<div id="body" class="white-section">
+    <div id="body-content" class="container-fluid">
+
+        <!-- ko compose:{model:'requestInvite/vms/requestInvite',view:'requestInvite/views/requestInvite'} --><!-- /ko -->
+        <!-- ko compose:dealClaim --><!-- /ko -->
+
+        <div class="row-fluid margin-top-20">
+            <div class="span12  text-center">
+                <h1 data-bind="text:content.title"></h1>
+                <span class="lead">@</span><span class="lead" data-bind="text:content.whereIsIt"></span>
+            </div>
+        </div>
+        <div class="row-fluid margin-top-20">
+            <div class="span5">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="well savings text-center">
+                            <span class="page-header savings-percent"><h2><small>You save about&nbsp;&nbsp;&nbsp;</small><!--ko text:content.iSave--><!-- /ko--></h2></span>
+                            <button class="btn btn-primary btn-large btn-block" data-toggle="modal" href="#dealClaimModal" >Claim This Deal</button>   <!-- data-bind="enable:isAgeGateVerified()"-->
+                            <span>No need to pay here. Just claim!</span>
+                        </div>
+                    </div>
+                </div> <!--savings -->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="well text-center">
+                            <h5>Share This Deal</h5>
+                            <span class='st_facebook_vcount' displayText='Facebook'></span>
+                            <span class='st_twitter_vcount' displayText='Tweet'></span>
+                            <span class='st_email_vcount' displayText='Email'></span>
+                        </div>
+                    </div>
+                </div> <!--savings -->
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div id="map-canvas" style="width: 85%; height: 300px;" class="alert alert-info text-center">
+                            <h5>How to get here</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="alert alert-success text-center" data-bind="html:content.merchant">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="span7">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <!--section class="slider">
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="img/deal/inner/peacock-deal-page.jpg" />
+                                        </li>
+                                        <li>
+                                            <img src="img/deal/inner/peacock-deal-page.jpg" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section-->
+                            <!-- ko  if:content.images.length  >1 -->
+                            <div class="spinner"></div>
+
+                            <div id="myCarousel" class="carousel slide">
+                                <ol class="carousel-indicators">
+                                    <!-- ko foreach:content.images -->
+                                    <li data-target="#myCarousel" data-slide-to="0" class="" data-bind="attr:{'data-slide-to':$index}"></li>
+                                    <!-- /ko -->
+                                </ol>
+                                <div class="carousel-inner">
+                                    <!-- ko foreach:content.images -->
+                                    <div class="item">
+                                        <img data-bind="attr:{src:'../img/deal/inner/'+$data}" alt="">
+
+                                    </div>
+
+                                    <!-- /ko -->
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if:content.images.length==1 -->
+                            <img data-bind="attr:{src:'../img/deal/inner/'+content.images[0]}" alt="">
+
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12" data-bind="html:content.content.about">
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12"data-bind="html:content.content.whyWeRecommend">
+
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <button class="btn  btn-primary btn-large btn-block" data-toggle="modal" href="#dealClaimModal" >Claim This Deal</button>    <!-- data-bind="enable:isAgeGateVerified()"-->
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <h5>Share This Deal</h5>
+                            <span class='st_facebook_hcount' displayText='Facebook'></span>
+                            <span class='st_twitter_hcount' displayText='Tweet'></span>
+                            <span class='st_email_hcount' displayText='Email'></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

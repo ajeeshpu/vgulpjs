@@ -1,0 +1,37 @@
+{
+	"_id": "52848e0e8580595205000007",
+	"created_at": "2013-11-14T08:47:10.491Z",
+	"facebook": {
+		"title": "Marketing Content / Interns to hire at Vgulp",
+		"description": "Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email",
+		"imageUrl": "http://www.vgulp.com/careers/ninja-designer.jpg",
+		"pageUrl": "http://www.vgulp.com/careers/marketing.html"
+	},
+	"images": [],
+	"introductionHtml": "                    <p class=\"lead\">From producing conversion oriented content pages, to defining marketing strategies for the company, to managing our social and web assets, executing high performance viral campaigns, and kicking butts of the agencies we work with on digital media - you are what we call the growth hackers. Exceptional intelligence - a must!\r\n                    </p> <br>\r\n                    <p>We were launched in June 2013, and received funding in August. We are addressing a no brainer idea in a 35 Bn USD market in India, that had little takers for. Vgulp solves a simple problem - helping drinkers (like us, you?) find the best deals and discounts in the most happening joints in town. Through this we improve walk-ins and help merchants meet their business objectives.</p>\r\n                    <br>\r\n                    <p>This is an intern to hire job. The internship period will be for 3 months, post which you would enter our permanent rolls. The internship is paid decently.</p>\r\n                    <br>\r\n                    <p>You are expected to have an unhealthy imagination, a passion for marketing, and eye for data driven performance. You should be strategic, ability to handle plans, and adapt as required, while not losing focus on your day to day activities. You would be working closely with the Founders of the Company on various missions from market research to day to day content, to product aspects. When needed you are required to be on the road, meeting bar owners to get their data / content up on the product in a format that optimizes our digital presence as well as adds value to consumer decisions.</p>\r\n                    <p>You would be thrown at the bottom end of campaign management - from email marketing to SEO / Paid advertising, to media buy-ins, CRM management, Landing pages, Social assets, Agency management, Content / graphics and more. Post your internship you would be a marketing Ninja. Are you up for it?</p>\r\n                    <p>While we are not particular about you having a degree / years into your resume, the knowledge of digital / social is a must. If you have managed a Facebook Fan Page / have a twitter account, and know what pinterest  /Tumblr is, nothing like it!. If you already know Google analytics / facebook advertising, and email marketing tools like mailchimp, let’s talk directly about the offer letter.</p>\r\n                    <p>** You will start your stint at Vgulp as an Intern / Trainee for a period of 3 months post which you would enter our permanent payroll. The numbers would be communicated to you during interview.**</p>\r\n",
+	"location": "Bangalore",
+	"meta": {
+		"title": "Marketing Content / Interns to hire",
+		"description": "Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email"
+	},
+	"module": {
+		"name": "careers/marketing",
+		"slug": "careers/marketing.html"
+	},
+	"numberOfOpenPositions": 2,
+	"otherPositions": [
+		"<a href=\"#!careers/sales-manager.html\">Sales Manager</a> ",
+		"                     <a href=\"#!careers/inside-sales.html\">Inside sales</a>"
+	],
+	"showAgeGate": "false",
+	"skills": {
+		"title": "Benefits",
+		"descriptionHtml": "<ul>\r\n                        <li>Paid Internship, Competitive salary post 3 months</li>\r\n                        <li>Work from home</li>\r\n                        <li>Flexible work hours</li>\r\n                        <li>Stock Options post your getting into our permanent rolls</li>\r\n                        <li>Challenging career and growth</li>\r\n                        <li>irresistible leaves and holidays</li>\r\n                        <li>Company sponsored booze on Fridays</li>\r\n                        <li>Unlimited fun</li>\r\n                        <li>Need anything more?</li>\r\n                    </ul>"
+	},
+	"template": "www/js/app/careers/views/careersPage.html",
+	"updated_at": "2013-11-14T08:47:10.491Z",
+	"weLoveYouIf": {
+		"title": "",
+		"descriptionHtml": ""
+	}
+}

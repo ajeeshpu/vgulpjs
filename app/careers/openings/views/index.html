@@ -1,0 +1,59 @@
+<div id="body" class="white-section">
+    <div class="container-fluid white-section just-text-container">
+        <div class="row-fluid white-section margin-top-20">
+            <div class="span4">
+                <h2 data-bind="text:content.meta.title"></h2>
+                <h3>(Positions :&nbsp;<span data-bind="text:content.numberOfOpenPositions"></span>)</h3>
+                <p class="lead">Location, <span data-bind="text:content.location"></span></p>
+            </div>
+            <div class="span4 text-center">
+                <span class='st_facebook_vcount' displayText='Facebook'></span>
+                <span class='st_twitter_vcount' displayText='Tweet'></span>
+                <span class='st_linkedin_vcount' displayText='LinkedIn'></span>
+            </div>
+            <div class="span3 offset1">
+                <a href="mailto:getgulped@vgulp.com" class="btn btn-large btn-primary">Apply with a smile!</a>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <p class="careers" data-bind="html:content.introductionHtml"></p>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid">
+                    <div class="span8">
+                        <h2 data-bind="text:content.skills.title"></h2>
+                        <p class="careers" data-bind="html:content.skills.descriptionHtml"></p>
+                    </div>
+                    <div class="span4">
+                        <h2>Other Positions</h2>
+                        <!-- ko foreach:content.otherPositions -->
+                        <span data-bind="html:$data"></span>,
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ko if:content.weLoveYouIf.title!=="" -->
+        <div class="row-fluid">
+            <div class="span12">
+                <h2 data-bind="text:content.weLoveYouIf.title"></h2>
+                <p class="careers" data-bind="html:content.weLoveYouIf.descriptionHtml"></p>
+            </div>
+        </div>
+        <!-- /ko -->
+        <div class="row-fluid">
+            <div class="span12">
+                <h2>Sounds like you?</h2>
+                <p class="careers">Write to getgulped@vgulp.com. We are always looking for talented quirky individuals who can bring a fresh perspective.</p>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+
+            </div>
+        </div>
+    </div>
+</div>
