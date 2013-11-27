@@ -1,5 +1,5 @@
 define(['ageGate/vms/ageGate','durandal/system','durandal/app','common/vms/BaseIndex', 'jquery',
-    'bootstrap/bootstrap-carousel','prettyPhoto/jqueryPrettyPhoto'],function(AgeGate,system,app,BaseIndex,$){
+    'bootstrap/bootstrap-carousel','prettyPhoto/jqueryprettyPhoto'],function(AgeGate,system,app,BaseIndex,$){
     var VM=function(data){
          var self=this;
         BaseIndex.call(this,data)
