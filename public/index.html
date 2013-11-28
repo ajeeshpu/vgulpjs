@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vgulp</title>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="apple-touch-startup-image" href="../lib/durandal/img/ios-startup-image-landscape.png"
+          media="(orientation:landscape)"/>
+    <link rel="apple-touch-startup-image" href="../lib/durandal/img/ios-startup-image-portrait.png"
+          media="(orientation:portrait)"/>
+    <link rel="apple-touch-icon" href="../lib/durandal/img/icon.png"/>
+
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../lib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <link href="../app/requestInvite/css/tagmanager.css" rel="stylesheet" type="text/css">
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="../css/ie10mobile.css" rel="stylesheet"/>
+    <link href="../lib/durandal/css/durandal.css" rel="stylesheet"/>
+
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../lib/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+</head>
+<body class="dark">
+    <div id="applicationHost" class="container-fluid wrapper-main">
+        <div class="splash modal text-center">
+            <div class="hero-unit">
+                <h1>Vgulp cylinders firing up<p class="lead">Node v6 heating up!</p>            <i class="icon-spinner icon-2x icon-spin active"></i>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+<script src="lib/require/require.js" data-main="app/main"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+	"_id": "4950",
+	"title": "Unlimited liquor for 999/- plus taxes and party hard!",
+	"whereIsIt": "The Lock n Load, Club, Sahakara Nagar",
+	"location": {
+		"latitude": "13.058591",
+		"longitude": "77.585948"
+	},
+	"meta": {
+		"title": "Lock n Load Club, Sahakara Nagar | Unlimited Liquor Offer",
+		"description": "Lock n Load Club, in Chairman’s Resorts, Sahakara Nagar is home to some awesome parties in North Bangalore, and is now offering unlimited liquor offers only on Vgulp, Grab’em and Gulp’on!"
+	},
+	"facebook": {
+		"title": "Lock n Load Club, Sahakara Nagar | Unlimited Liquor Offer",
+		"description": "Lock n Load Club, in Chairman’s Resorts, Sahakara Nagar is home to some awesome parties in North Bangalore, and is now offering unlimited liquor offers only on Vgulp, Grab’em and Gulp’on!",
+		"imageUrl": "http://vgulp.com/img/lock-n-load-pub-sahakara-nagar-bangalore.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/lock-n-load-club-sahakara-nagar.html"
+	},
+	"images": [
+		"lock-n-load-pub-sahakara-nagar-bangalore.jpg"
+	],
+	"iSave": "50%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n               Lock n Load\r\nChairman's Resort, 14/1, Kodigehalli Main Road\r\nSahakara Nagar\r\n\r\n<br/><br/>\r\n                 <span>Phone: 9620811080</span><br>\r\n                </span>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>** This is an offer on popular request by our users who visit Lock n Load regularly for Clubbing**</p>\r\n                <p>Vgulp presents unlimited liquor in Lock n Load Pub, a unit of Chairman’s Resorts in Sahakara Nagar, Bangalore. Move on the floor to your favorite beats with the DJ playing all your favorite tracks, while getting into the groove without worrying about the bill. Grab this deal and Gulp on!</p>\r\n                <p><bold>Option 1:</bold> { Happy Hours From 11am to 5 pm TUESDAY TO SUNDAY  }\r\n                    package includes 2+1 drink with DJ playing all your favorite tracks\r\n                </p>\r\n                <p><bold>Option 2:</bold>{ 999+10.19% taxes , enjoy unlimited Indian liquor for 2 hours from TUESDAY TO SUNDAY between 11am to 11PM  with INHOUSE DJ playing all your requested tracks }</p>\r\n                <ul>\r\n                    <li>Offer vaild round the clock, for 2 hours, all days including weekends (Except Monday)</li>\r\n                    <li>Check with the restaurant to see brands on offer</li>\r\n                    <li>One voucher valid per bill</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liquor</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unless absolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": " <h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>Lock n Load pub attracts great crowd from the North Bangalore region, and it’s catching up in the night club scene</li>\r\n                    <li>Offer is valid on weekdays and weekends, round the clock (except Monday)</li></ul>"
+	},
+	"module": {
+		"name": "lock-n-load-club",
+		"slug": "bangalore-drink-deals/lock-n-load-club-sahakara-nagar.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-15T18:30:26.200Z",
+	"updated_at": "2013-11-15T18:30:26.200Z"
+}

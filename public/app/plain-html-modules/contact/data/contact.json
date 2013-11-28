@@ -1,0 +1,22 @@
+{
+	"meta": {
+		"title": "Contact Us | We are friendly",
+		"description": "No matter, if you are a user or customer, don't hesitate. Get in touch - give us a call, or send us an email. We hear and we care."
+	},
+	"facebook": {
+		"title": "Contact Us | We are friendly",
+		"description": "No matter, if you are a user or customer, don't hesitate. Get in touch - give us a call, or send us an email. We hear and we care.",
+		"imageUrl": "http://vgulp.com/images/peacock-deal-page.jpg",
+		"pageUrl": "http://www.vgulp.com/contact.html"
+	},
+	"module": {
+		"name": "contact",
+		"slug": "contact.html"
+	},
+	"template": "www/js/app/plain-html-modules/views/general-site-page.html",
+	"showAgeGate": "false",
+	"images": [],
+	"created_at": "2013-11-13T11:58:24.875Z",
+	"updated_at": "2013-11-13T11:58:24.875Z",
+	"_id": "52836960a46568aa0e000001"
+}

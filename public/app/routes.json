@@ -1,0 +1,102 @@
+[
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/chairmans-jade-resort-devanahalli.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/woodstok-indira-nagar.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/via-milano-italian-restaurant-lounge-koramangala.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/barleyz-the-brew-house-koramangala.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/the-platter-restaurant-lounge-banashankari.html",
+		"method": "GET"
+	},
+	{
+		"name": "plain-html-modules/home",
+		"slug": "index.html",
+		"method": "GET"
+	},
+	{
+		"name": "plain-html-modules/business",
+		"slug": "business.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/home",
+		"slug": "careers.html",
+		"method": "GET"
+	},
+	{
+		"name": "plain-html-modules/about",
+		"slug": "about.html",
+		"method": "GET"
+	},
+	{
+		"name": "plain-html-modules/contact",
+		"slug": "contact.html",
+		"method": "GET"
+	},
+	{
+		"name": "deal-showcase",
+		"slug": "deal-showcase.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/javascript-ninja.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/web-developer.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/web-graphic-designer.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/sales-manager.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/inside-sales.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/peacock-indira-nagar.html",
+		"method": "GET"
+	},
+	{
+		"name": "careers/openings",
+		"slug": "careers/marketing.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/doff-the-pub-and-lounge-indira-nagar.html",
+		"method": "GET"
+	},
+	{
+		"name": "deals",
+		"slug": "bangalore-drink-deals/lock-n-load-club-sahakara-nagar.html",
+		"method": "GET"
+	}
+]

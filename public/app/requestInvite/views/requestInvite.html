@@ -1,0 +1,49 @@
+<div class="row-fluid margin-top-20" data-bind="visible:showTopBar">
+    <div class="span12">
+        <div class="alert warning text-center">
+            <button type="button" class="close" data-bind="click:hideTopBar">&times;</button>
+                            <span class="lead">You needn't be a user to try any of these deals out.<br/>
+                            To get exclusive access to all our deals, please request invite here.<br/></span><br/>
+            <input class="span5" data-bind="value:email"> <button class="btn btn-primary" data-bind="click:ask">Request Invite</button>
+        </div>
+    </div>
+</div>
+<div id="preferredLocationsModal" class="modal hide fade" data-bind="showModal:show">
+    <form data-bind="submit:updateInvite">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-bind="click:openShareThis">&times;</button>
+            <h3>Your preferred locations for deals</h3>
+        </div>
+        <div class="modal-body">
+            <input name="preferredLocations" class="input-block-level" placeholder="Preferred Location" data-bind="tagsInput:preferredLocationsQuery">
+            <div class="alert alert-block alert-success fade in margin-top-20" data-bind="visible:success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading text-center">Super!</h4>
+                <p class="text-center">You are what we had in mind when we started this. Check your deal in your mailbox!</p>
+            </div>
+            <div class="alert alert-block alert-error fade in margin-top-20" data-bind="visible:failure">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading text-center">Oh shucks! You got an error!</h4>
+                <p class="text-center">We don&apos;t really know what the heck happened for now. Please try again.</p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" href="#" class="btn btn-primary btn-medium text-center">Submit And Continue</button>
+            <button  href="#" class="btn btn-warning btn-medium" data-bind="click:openShareThis">Skip</button>
+        </div>
+    </form>
+
+</div>
+<div id="shareSocial" class="modal hide fade text-center" data-bind="showModal:showShareThis">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3><strong>Be the first to share it with friends</strong></h3>
+    </div>
+    <div class="modal-body">
+        <span class='st_facebook_hcount' displayText='Facebook'></span>
+        <span class='st_twitter_hcount' displayText='Tweet'></span>
+        <span class='st_email_hcount' displayText='Email'></span>
+    </div>
+
+</div>

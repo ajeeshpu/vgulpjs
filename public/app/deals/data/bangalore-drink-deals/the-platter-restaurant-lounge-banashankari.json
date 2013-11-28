@@ -1,0 +1,35 @@
+{
+	"_id": "3994",
+	"title": "Unlimited Beer and Unlimited Starter @ 399/-",
+	"whereIsIt": "The Platter, Restaurant & lounge, Banshankari",
+	"location": {
+		"latitude": "12.927103",
+		"longitude": "77.561396"
+	},
+	"meta": {
+		"title": "Unlimited Beer and Unlimited Starter @ 399/-",
+		"description": "Vgulp presents unlimited beer and unlimited starters at just 399/- at The Platter, Restaurant, and Lounge, Banashankari"
+	},
+	"facebook": {
+		"title": "Unlimited Beer and Unlimited Starter @ 399/-",
+		"description": "Unlimited Beer and Unlimited Starter @ 399/-",
+		"imageUrl": "http://www.vgulp.com/img/platter-banashankari.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/the-platter-restaurant-lounge-banashankari.html"
+	},
+	"images": [
+		"platter-banashankari.jpg"
+	],
+	"iSave": "40%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n                    <span itemprop=\"address\" itemscope itemtype=\"http://schema.org/PostalAddress\"><span itemprop=\"streetAddress\">\r\n                The Platter; #10, 30th main, Opp Kempegowda Hospital, Banashankari, Bangalore</span></span><br/><br/>\r\n                Smoking area, take-out, restaurant, lounge, big screen, bar, parking, cards accepted, Wi-fi available, good for groups, Cuisines: <span itemprop=\"servesCuisine\">continental, italian, indian and chinese </span><br><br>\r\n                 <span>Phone: <span itemprop=\"telephone\">8065555534</span></span><br/>\r\n                </span>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>Vgulp presents unlimited beer and unlimited starters at just 399/- at The Platter, Restaurant, and Lounge, Banashankari. Are you looking for enough beer to beat the winter? With this offer you can have it all with your favorite choice of starters from the cusine choices available at the Platter. Whether you are having a fun time with your colleagues or catching up with some of your old friends, this deal says it all. What is more? Monday to Friday - any time when the restaurant is open. Can you beat that?</p>\r\n                <ul>\r\n                    <li>Taxes excluded</li>\r\n                    <li>Offer vaild only on Monday to Friday</li>\r\n                    <li>The Restaurant may get crowded, check in advance</li>\r\n                    <li>One voucher valid for one person only</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liqour.</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unlessabsolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "<h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>Unlimited beer and unlimited starters at 399/- is the best you can grab</li>\r\n                    <li>Offer vaild on Monday - Friday, at all times the restaurant is open</li>\r\n                    <li>No time cap</li>\r\n                    <li>No additional clauses</li></ul>"
+	},
+	"module": {
+		"name": "platter-banashankari",
+		"slug": "bangalore-drink-deals/the-platter-restaurant-lounge-banashankari.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T12:25:37.725Z",
+	"updated_at": "2013-11-11T12:25:37.725Z"
+}

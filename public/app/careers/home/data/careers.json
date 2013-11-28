@@ -1,0 +1,22 @@
+{
+	"_id": "5282f8deb128448a06000001",
+	"created_at": "2013-11-13T03:58:22.717Z",
+	"facebook": {
+		"title": "Bangalore's largest portal for booze deals is hiring. Apply Now!",
+		"description": "Check out the open positions, and if you find one that suits you, send us an email to getgulped@vgulp.com, stating a little something about yourself, and why you would like to join us. Spread the word.",
+		"imageUrl": "http://vgulp.com/images/hustlers1.jpg",
+		"pageUrl": "http://www.vgulp.com/careers.html"
+	},
+	"images": [],
+	"meta": {
+		"title": "Careers",
+		"description": "\"Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email"
+	},
+	"module": {
+		"name": "careers",
+		"slug": "careers.html"
+	},
+	"showAgeGate": "false",
+	"template": "www/js/app/plain-html-modules/views/general-site-page.html",
+	"updated_at": "2013-11-13T03:58:22.717Z"
+}

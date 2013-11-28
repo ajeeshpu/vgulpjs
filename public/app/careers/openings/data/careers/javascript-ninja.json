@@ -1,0 +1,37 @@
+{
+	"_id": "52844f5f93c0ffc203000001",
+	"created_at": "2013-11-14T04:19:43.613Z",
+	"facebook": {
+		"title": "Javascript Ninja at Vgulp",
+		"description": "Do you believe that we are the right guys to work for? Don't have a degree ! We dont care a d**mn. Shoot us an email",
+		"imageUrl": "http://www.vgulp.com/careers/ninja-designer.jpg",
+		"pageUrl": "http://www.vgulp.com/careers/javascript-ninja.html"
+	},
+	"images": [],
+	"introductionHtml": "<p>We were launched in June 2013, and received funding in August. We are addressing a no brainer idea in a 35 Bn USD market in India, that had little takers for. Vgulp solves a simple problem - helping drinkers (like us, you?) find the best deals and discounts in the most happening joints in town. Through this we improve walk-ins and help merchants meet their business objectives.</p><br/><p>Being a Javascript Ninja for Vgulp, you would serve or would be served javascript problems in morning , noon and evening.  Vgulp believes \"browser is king and javascript being the subservient mantri (Yes malayalee writing)\". Heck we would rewrite everything in javascript and Node.js if we really have to , we are so much in love with it. As a JS ninja you are supposed to believe that javascript is the only language left in the world.!</p><br><p>While we are not particular about you having a degree / years into your resume, we are people passionate about technology and believe in early adoptions. This has many a times honestly drove us against the wall, but heck we have come back stronger and more convinced. We believe in technology and programming being fun and \"delivery\" a necessary side effect. So all you hackers, philosophers, dreamers if you wanna risk something for the love of \"what you believed in\", Vgulp is calling! </p>",
+	"location": "Bangalore",
+	"meta": {
+		"title": "Javascript Ninja",
+		"description": "Things you need to know about how we collect information, and how we utilize it to improve your experience."
+	},
+	"module": {
+		"name": "careers/js-ninja",
+		"slug": "careers/javascript-ninja.html"
+	},
+	"numberOfOpenPositions": "1",
+	"otherPositions": [
+		"<a href='#!careers/web-graphic-designer.html'>Web Graphic Designer</a>",
+		"<a href=\"#!careers/web-developer.html\">Web Developer</a>"
+	],
+	"showAgeGate": "false",
+	"skills": {
+		"title": "What we think you should have",
+		"descriptionHtml": "<ul> <li>Strong Object oriented programming skills</li> <li>Preference for working in a really fast paced environment</li> <li>You will only REST and REST</li> <li>You should possess HTML5 and CSS3 t-shirts. You don't have em (But that caught your eye did it not?)</li> <li>You shall swear by RequireJS and AMD</li> <li>MVVM is king shall be on your resume</li> <li>Any or Many of Knockout, Durandal, Angular, CommonJS, ExtJS, Dojo,Jquery, Ajax, prototype, <br>Grunt, Node.js, bower, sugar</li> <li>You have always believed TDD is the only way to develop and design code</li> <li>Any Many of phantomJs, Capybara, selenium, jasmine, ChaiJS, Mocha</li> <li>You believe that phonegap is here to stay</li> <li>You should own an android, iphone , windows or blackberry phone. We are not kidding here.</li> <li>You believe in Responsive Design for the web</li> <li>Modernizer, Bootstrap, Foundation, topcoat, Flat-UI keep you interested in life</li> <li>You have more to add we are listening!</li> </ul>"
+	},
+	"template": "www/js/app/careers/views/careersPage.html",
+	"updated_at": "2013-11-14T04:19:43.613Z",
+	"weLoveYouIf": {
+		"title": "Dudes with these don't think twice",
+		"descriptionHtml": "<ul> <li>Have an application running with AWS or EC2</li> <li>You can even cook food with Node.js</li> <li>You are one of the programmers behind one of those web apps that kind of takes on a truck load of users and have gone home every day.</li> <li>You worship Douglas Crockford</li> <li>You love the movie inception, counterfeiters, Cars, Gulaal, Dev D, Godfather, Avatar</li> <li>You have worked on Gremlin DSLs over REST with neo4j or perhaps with even Rexster</li> <li>There is no place like 127.0.0.1</li> </ul>"
+	}
+}

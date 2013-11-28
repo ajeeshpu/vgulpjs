@@ -1,0 +1,35 @@
+{
+	"_id": "4794",
+	"title": "Unlimited liquor, starters, swimming, water slide and more - Spend your day unwinding at a resort",
+	"whereIsIt": "Chairman’s Jade Resort, Devanahalli, near airport",
+	"location": {
+		"latitude": "13.058409",
+		"longitude": "77.586136"
+	},
+	"meta": {
+		"title": "Chairman's jade resort devanahalli | Unlimited liquor, starters, swimming, water slide and more from vgulp",
+		"description": "Unlimited Indian Liquor / Beer for 2 hours between (11 AM to 7 PM); Get a choice of one veg starter & one non veg starter, unlimited usage of swimming pool and waterslide at just 999 + 10.19% taxes"
+	},
+	"facebook": {
+		"title": "Chairman's jade resort devanahalli | Unlimited liquor, starters, swimming, water slide and more from vgulp",
+		"description": "Unlimited Indian Liquor / Beer for 2 hours between (11 AM to 7 PM); Get a choice of one veg starter & one non veg starter, unlimited usage of swimming pool and waterslide at just 999 + 10.19% taxes",
+		"imageUrl": "http://vgulp.com/images/chairmans-jade-resort-deal.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/chairmans-jade-resort-devanahalli.html"
+	},
+	"images": [
+		"chairmans-jade-resort-deal.jpg"
+	],
+	"iSave": "50%",
+	"merchant": "<h5>Merchant Details</h5> \r\n                Chairman’s Jade, Club &amp; Resort\r\n\r\nSadehalli Village, Opp.Club Cabana\r\n\r\nNear Bangalore International Airport, Devanhalli Taluk,\r\n\r\nBangalore North<br/> <span>Phone: 9620822201,9620822203, 9980269978</span><br>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>Vgulp presents “unwind at a resort:, at the Chairman’s Jade Resort, near airport, Devanahalli. Offering you an option of two deals, you could choose either.\r\n                </p>\r\n                <strong>Deal Option 1:</strong> <br>\r\n                <p>Get a beer bucket - 5 pints of beer at just 550 + 10.19% taxes, and unlimited usage of water slide and swimming pool </p>\r\n                <strong>Deal Option 2:</strong> <br>\r\n                <p>Unlimited Indian Liquor / Beer for 2 hours between (11 AM to 7 PM); Get a choice of one veg starter &amp; one non veg starter, unlimited usage of swimming pool and waterslide at just 999 + 10.19% taxes\r\n                </p>\r\n                <p>If you are looking to have a chill time with family / friends, away from the city, and make a day memorable, we recommend this offer for you.\r\n                </p>\r\n                <p>In deal option 2, unlimited liquor offer is capped at the maximum time of 2 hours, you can have starters and buffet for any time you want. Get off the turf, Take a break from Bangalore, and unwind with Vgulp.\r\n                </p>\r\n                <p>The following facilities are available at the Chairman’s Jade Resort\r\n                </p>\r\n                <ul>\r\n                    <li>Multi-Cusine Restaurant {pool side}</li>\r\n                    <li>24 hours Coffee Shop</li>\r\n                    <li>Designer Bar</li>\r\n                    <li>Huge Swimming Pool with slider</li>\r\n                    <li>Water Zorbing</li>\r\n                    <li>Basket Ball</li>\r\n                    <li>Beach Volley Ball</li>\r\n                    <li>Baby swimming pool</li>\r\n                    <li>Children play area</li>\r\n                    <li>Indoor shuttle court</li>\r\n                    <li>Indoor squash court</li>\r\n                    <li>Two tennis court</li>\r\n                    <li>conference hall</li>\r\n                    <li>Table Tennis</li>\r\n                    <li>Indoor Board Games</li>\r\n                    <li>Short Pitch Cricket</li>\r\n                </ul>\r\n                <p><strong>Fine Print</strong></p>\r\n                <ul>\r\n                    <li>Offer vaild round the clock, all days including weekends</li>\r\n                    <li>Offer valid on select liquor capped at 2 hours</li>\r\n                    <li>The resort may get crowded, check in advance to confirm your reservation</li>\r\n                    <li>One voucher valid for one person only</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liqour.</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unless absolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "                <h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>Unlimited liquor, one starter, and unlimited swimming and waterslide is the best you couls get for 999/- + taxes</li>\r\n                    <li>Offer is valid on weekdays and weekends, round the clock.</li>\r\n                </ul>\r\n"
+	},
+	"module": {
+		"name": "chairmanz-resort",
+		"slug": "bangalore-drink-deals/chairmans-jade-resort-devanahalli.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T10:42:34.239Z",
+	"updated_at": "2013-11-11T10:42:34.239Z"
+}

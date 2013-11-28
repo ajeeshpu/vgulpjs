@@ -1,0 +1,35 @@
+{
+	"_id": "3689",
+	"title": "Happy Hours – All Day Long, Get 1+1 on select IMFL",
+	"whereIsIt": "Via Milano, Restaurant and Lounge, Koramangala",
+	"location": {
+		"latitude": "12.936375",
+		"longitude": "77.62765"
+	},
+	"meta": {
+		"title": "Via Milano Koramangala | 50% off with Vgulp All day Happy Hours",
+		"description": "Vgulp offers happy hours on select indian whiskies, 50% off all day long in Via Milano koramangala. Great Italian cuisine, one of the best bars and fine dines koramangala offering drink deals."
+	},
+	"facebook": {
+		"title": "Via Milano Koramangala | 50% off with Vgulp All day Happy Hours",
+		"description": "Vgulp offers happy hours on select indian whiskies, 50% off all day long in Via Milano koramangala. Great Italian cuisine, one of the best bars and fine dines koramangala offering drink deals.",
+		"imageUrl": "http://vgulp.com/img/via-milano-koramangala-drink-deals.jpg",
+		"pageUrl": "http://www.vgulp.com/bangalore-drink-deals/via-milano-italian-restaurant-lounge-koramangala.html"
+	},
+	"images": [
+		"via-milano-koramangala-drink-deals.jpg"
+	],
+	"iSave": "50%",
+	"merchant": "<h5>Merchant details</h5>\r\n                <span class=\"justClaim\">\r\n                Via Milano – 612, Basil Moneta, 80 Ft Peripheral Road, Koramangala, Bangalore<br/><br/>\r\n                Open lounge, take-out, restaurant, lounge, bar, parking, cards accepted, delivery, take out, Cusines: Italian<br><br>\r\n                 <span>Phone: 080 41309997, 080 41309994</span><br>\r\n                </span>",
+	"content": {
+		"about": "<h2>About the deal</h2>\r\n                <p>An “Italian-Indian” combo isn’t really unfamiliar to you ;). Vgulp presents happy hours all day long at Via Milano, the Italian Restaurant and Lounge, Koramangala. GET 1+1 on select Indian whiskies and other IMFLs. Via Milano is one of the finest Italian fine dine restaurants in Bangalore, and their spotting includes celebrities like “Jonty Rhodes”. So if your stomach is craving Italian, top it up with 1 + 1 offer on select IMFL</p>\r\n                <ul>\r\n                    <li>Offer valid only on all days</li>\r\n                    <li>The Restaurant may get crowded, check in advance</li>\r\n                    <li>1+1 only available on select IMFL only, check with the restaurant before visit</li>\r\n                    <li>Present your voucher in email on your phone</li>\r\n                    <li>You must be over the legal drinking age in your city to redeem this voucher against drinks/liqour.</li>\r\n                    <li>Cannot be redeemed with cash</li>\r\n                    <li>Please do not print to waste paper, unlessabsolutely necessary</li>\r\n                </ul>",
+		"whyWeRecommend": "       <h2>Why we recommend</h2>\r\n                <ul>\r\n                    <li>Valid on weekdays and weekends</li>\r\n                    <li>Get 1+1 free on select IMFL</li>\r\n                    <li>No additional clauses</li>\r\n                    <li>Brilliant Italian food</li>\r\n                    <li>One of the best fine dine restaurants in Bangalore</li>\r\n                </ul>"
+	},
+	"module": {
+		"name": "via-milano",
+		"slug": "bangalore-drink-deals/via-milano-italian-restaurant-lounge-koramangala.html"
+	},
+	"template": "www/js/app/deal/views/deal-template.html",
+	"created_at": "2013-11-11T11:59:39.310Z",
+	"updated_at": "2013-11-11T11:59:39.310Z"
+}
