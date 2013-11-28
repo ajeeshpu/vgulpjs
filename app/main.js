@@ -31,7 +31,7 @@
             deps: ['jquery'],
             exports: 'jQuery'
         },
-        'prettyPhoto/jqueryprettyPhoto':{
+        'prettyPhoto/jqueryPrettyPhoto':{
             deps:['jquery','jqueryPlugins/jquery.migrate.1.2.1'],
             exports:'jQuery'
         },
@@ -74,7 +74,7 @@ define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (s
     });
     system.log("Query Params: Escaped Fragment (SEO)",queryParams['__escaped_fragment__']);
     if(queryParams['__escaped_fragment__']!== undefined){
-        window.location.assign("snapshots/sp_"+queryParams['__escaped_fragment__']+".html")
+        window.location.assign("snapshots/"+queryParams['__escaped_fragment__'])
         return;
     }
 
