@@ -12,13 +12,19 @@ define(['ageGate/vms/ageGate','durandal/system','durandal/app','common/vms/BaseI
                     $('.spinner').hide("slow");
                 }
             );
-            require.undef('shareThis/socialWidgets');
-            require(['domReady!','shareThis/socialWidgets'],function(){
-                AgeGate.show({})
-                self.map = new Map({"mapDiv": document.getElementById("map-canvas"), "location": self.content.location})
 
-            })
 
+        }
+        var displayMap=function(){
+            self.map = new Map({"mapDiv": document.getElementById("map-canvas"), "location": self.content.location})
+        }
+        var showAgeGate=function(){
+            AgeGate.show({})
+
+        }
+        self.init=function(){
+            self.domReadyCallbacks.push(showAgeGate)
+            self.domReadyCallbacks.push(displayMap)
         }
         self.activate=function(){
             var defer = $.Deferred();
@@ -30,6 +36,7 @@ define(['ageGate/vms/ageGate','durandal/system','durandal/app','common/vms/BaseI
             })
             return defer.promise();
         }
+        self.init();
     }
     VM.prototype=Object.create(BaseIndex.prototype)
     return VM;

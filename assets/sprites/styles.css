@@ -1,0 +1,6 @@
+.montage { background: url('sprites.png') no-repeat; width: 16px; height: 16px; }
+.montage.Vgulp\-On\-Facebook { background-position: 0px 0px; }
+.montage.Vgulp\-On\-Google\-Plus { background-position: -16px 0px; }
+.montage.Vgulp\-On\-LinkedIn { background-position: -32px 0px; }
+.montage.Vgulp\-On\-Tumblr { background-position: 0px -16px; }
+.montage.Vgulp\-On\-Twitter { background-position: -16px -16px; }

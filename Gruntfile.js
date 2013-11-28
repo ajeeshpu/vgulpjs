@@ -55,13 +55,19 @@ module.exports = function (grunt) {
                 }
             }
         } ,
-        clean:['target/work'],
+        clean:['target'],
         copy: {
             main: {
                 files: [
                     // includes files within path and its sub-directories
-                    {expand: true, src: ['www/**'], dest: 'target'},
-                    //{expand: true, cwd: 'target/', src: ['**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/', src: ['app/**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/', src: ['css/**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/', src: ['img/**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/', src: ['lib/**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/', src: ['snapshots/**'], dest: 'target/work'},
+                    {expand: true, cwd: 'public/prod/', src: ['index.html'], dest: 'target/work'},
+                    {expand: true,cwd: 'public/lib/font-awesome', src: 'font/**',  dest: 'target/work'},
+
                 ]
             }
         },
@@ -104,13 +110,15 @@ module.exports = function (grunt) {
         requirejs:{
             compile:{
                 options:{
-                    appDir:"public",
-                    dir:"target/",
+                    appDir:"target/work",
+                    baseUrl:"app",
+                    dir:"target/www",
                     optimizeCss:'standard',
+                    inlineText: true,
                     uglify: {
                         toplevel: true,
                         ascii_only: true,
-                        beautify: true,
+                        beautify: false,
                         max_line_length: 1000,
 
                         //How to pass uglifyjs defined symbols for AST symbol replacement,
@@ -122,7 +130,7 @@ module.exports = function (grunt) {
                         //Custom value supported by r.js but done differently
                         //in uglifyjs directly:
                         //Skip the processor.ast_mangle() part of the uglify call (r.js 2.0.5+)
-                        no_mangle: true
+                        no_mangle: false
                     },
                     paths: {
                         'text': '../lib/require/text',
@@ -173,15 +181,23 @@ module.exports = function (grunt) {
                         {
                             name:'main'
                             //insertRequire:['../app/plain-html-modules/main']
-                        }/*
-                         {
-                         name:'../app/careers/main',
-                         insertRequire:['../app/careers/main']
-                         },
-                         {
-                         name:'../app/deal/main',
-                         insertRequire:['../app/deal/main']
-                         },  */
+                        },
+                        {
+                            name:'shell'
+                            //insertRequire:['../app/plain-html-modules/main']
+                        },
+                        {
+                            name:'common/vms/BaseIndex'
+                        },
+                        {
+                            name:'plain-html-modules/home/vms/index'
+                        },
+                        {
+                            name:'ageGate/vms/ageGate'
+                        },
+                        {
+                            name:'requestInvite/vms/requestInvite'
+                        },
                     ],
                     throwWhen: {
                         //If there is an error calling the minifier for some JavaScript,
@@ -202,18 +218,36 @@ module.exports = function (grunt) {
                     }
                 }
             }
+        },
+        concat:{
+            dist:{
+                src:
+                    [ 'target/work/lib/bootstrap/css/bootstrap.css',
+                        'target/work/lib/bootstrap/css/bootstrap-responsive.css',
+                        'target/work/app/requestInvite/css/tagmanager.css',
+                        'target/work/lib/font-awesome/css/font-awesome.css',
+                        'target/work/css/ie10mobile.css',
+                        'target/work/lib/durandal/css/durandal.css',
+                        'target/work/css/main.css',
+                        'target/work/lib/prettyPhoto/css/prettyPhoto.css',
+                        'target/work/css/sprites.css'],
+                dest:'target/work/css/vgulp.css'
+            }
         }
 
 
     });
 
 
-    grunt.loadNpmTasks('grunt-contrib-watch');
+    //grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-concat')
+
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-requirejs');
     grunt.loadNpmTasks('grunt-html-snapshot');
+
 
     grunt.registerTask('snapshotMySite', 'takes an html shot of the site with all routes configured', function () {
         var routes = grunt.file.readJSON('public/app/routes.json')
@@ -227,7 +261,7 @@ module.exports = function (grunt) {
         //grunt.task.run('htmlSnapshot')
     })
     grunt.registerTask('ts', ['snapshotMySite', 'htmlSnapshot']);
-    grunt.registerTask('buildWWW',['clean','copy','imagemin','requirejs'])
+    grunt.registerTask('buildWWW',['clean','copy','imagemin','concat','requirejs'])
     /* grunt.registerTask('test', ['jshint', 'qunit']);
 
      grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);*/

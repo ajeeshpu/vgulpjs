@@ -8,21 +8,21 @@
     <file path="/README.md" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385301153104" ignored="false" />
     <file path="/shell.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385529513541" ignored="false" />
     <file path="/shell.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385457063338" ignored="false" />
-    <file path="/a.dummy" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385555914057" ignored="false" />
+    <file path="/a.dummy" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676081420" ignored="false" />
     <file path="/router.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385356764487" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app2/shell.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385357274985" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app2/shell.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385357304176" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/shell.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385531530113" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/shell.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385457064586" ignored="false" />
-    <file path="/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385538632530" ignored="false" />
+    <file path="/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676955415" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/plain-html-modules/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385357805477" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/plain-html-modules/views/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385357903609" ignored="false" />
-    <file path="/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385636313493" ignored="false" />
+    <file path="/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385675685601" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385456214244" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/lib/bootstrap/css/bootstrap-responsive.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385358387849" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/plain-html-modules/home/views/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385451367648" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/css/main.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385361674429" ignored="false" />
-    <file path="/main.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385637562979" ignored="false" />
+    <file path="/main.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385674871402" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/plain-html-modules/home/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385555907323" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/main.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385553319894" ignored="false" />
     <file path="/main.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385553122189" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="/durandal.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385440415741" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/common/lib/metaAttribute.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385442428790" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/common/vms/BaseIndex.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385533059196" ignored="false" />
-    <file path="/BaseIndex.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385528244395" ignored="false" />
+    <file path="/BaseIndex.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385651749552" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/common/views/metaDetails.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385449696532" ignored="false" />
     <file path="/metaDetails.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385445542090" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/public/app/routes.json" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385490227926" ignored="false" />
@@ -97,8 +97,61 @@
     <file path="$PROJECT_DIR$/../HTML-Samples/Gruntfile.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385553294217" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/snapshots/sp_.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385549870075" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/snapshots/sp_index.html.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385549870075" ignored="false" />
-    <file path="/Gruntfile.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385643914986" ignored="false" />
+    <file path="/Gruntfile.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676367018" ignored="false" />
     <file path="$PROJECT_DIR$/../HTML-Samples/app.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385553232816" ignored="false" />
+    <file path="$PROJECT_DIR$/../../gng-bitbucket/vgulp-on-web/index.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385646333881" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/knockout/knockout-2.3.0.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/knockout/knockout-2.3.0.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="/usemin.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385664364201" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/snapshots/careers/inside-sales.html" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385664025773" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/app.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385665160925" ignored="false" />
+    <file path="/spritesheet.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385672395621" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/bootstrap/css/bootstrap-responsive.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385673759687" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/bootstrap/css/bootstrap-responsive.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385673759687" ignored="false" />
+    <file path="/vgulp.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385675753031" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/bootstrap/css/bootstrap.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385675066787" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/bootstrap/css/bootstrap.css" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385675066787" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/careers/openings/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/requestInvite/lib/requestInvite.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/ageGate/lib/ageGate.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/plain-html-modules/home/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/ageGate/lib/ageGate.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/careers/openings/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/common/lib/metaAttribute.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/binder.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/ageGate/vms/ageGate.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/main.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/plugins/router.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/plugins/http.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/knockout/knockout-2.3.0.debug.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/plugins/observable.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/binder.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/plugins/widget.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/requestInvite/vms/requestInvite.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/composition.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/common/lib/metaAttribute.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/plugins/observable.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/plugins/dialog.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/ageGate/vms/ageGate.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/deals/vms/dealClaim.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/deals/vms/dealClaim.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/deals/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/knockout/knockout-2.3.0.debug.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/composition.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/main.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/plugins/dialog.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/plugins/widget.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/hello/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/requestInvite/vms/requestInvite.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/app/requestInvite/lib/requestInvite.ko.bindings.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/durandal/js/activator.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/shell.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/hello/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/plugins/http.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/activator.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/lib/durandal/js/plugins/router.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
+    <file path="$PROJECT_DIR$/target/www/app/deals/vms/index.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385677007506" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/lib/require/r.js" changelist="650535cf-8f13-4dd2-8ceb-5344e4002197" time="1385676843282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,61 +174,34 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="71" selection-start="10244" selection-end="10244" vertical-scroll-proportion="0.84444445">
+            <state line="121" column="43" selection-start="5703" selection-end="5703" vertical-scroll-proportion="-0.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="0" selection-end="506" vertical-scroll-proportion="-11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="81" selection-start="782" selection-end="782" vertical-scroll-proportion="-3.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/careers/home/vms/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/routes.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/careers/openings/vms/index.js">
+      <file leaf-file-name="json.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/www/lib/require/json.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="require.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/www/lib/require/require.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/deals/vms/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="25" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,25 +210,43 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="236" column="4" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shell.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/shell.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+            <state line="25" column="30" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/lib/durandal/js/plugins/router.js">
+      <file leaf-file-name="shell.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/shell.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+            <state line="44" column="43" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-16.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/plain-html-modules/home/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="180" column="18" selection-start="9746" selection-end="9746" vertical-scroll-proportion="-7.0408163">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="95" selection-start="480" selection-end="480" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -219,17 +263,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/app/plain-html-modules/main.js" />
-        <option value="$PROJECT_DIR$/public/app/shell.html" />
-        <option value="$PROJECT_DIR$/public/app/plain-html-modules/vms/index.js" />
-        <option value="$PROJECT_DIR$/public/app/plain-html-modules/views/index.html" />
-        <option value="$PROJECT_DIR$/public/app/shell.js" />
-        <option value="$PROJECT_DIR$/public/lib/durandal/js/plugins/router.js" />
-        <option value="$PROJECT_DIR$/public/app/main.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/node_modules/grunt-usemin/tasks/usemin.js" />
+        <option value="$PROJECT_DIR$/target/work/index.html" />
+        <option value="$PROJECT_DIR$/public/prod/index.html" />
+        <option value="$PROJECT_DIR$/public/app/plain-html-modules/home/vms/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/grunt-spritesheet/tasks/spritesheet.js" />
+        <option value="$PROJECT_DIR$/target/work/css/vgulp.css" />
+        <option value="$PROJECT_DIR$/target/www/app/plain-html-modules/home/views/index.html" />
+        <option value="$PROJECT_DIR$/target/www/css/vgulp.css" />
+        <option value="$PROJECT_DIR$/target/work/app/plain-html-modules/home/views/index.html" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/public/app/plain-html-modules/home/views/index.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/public/app/deals/vms/index.js" />
       </list>
     </option>
   </component>
@@ -294,57 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vgulpjs-durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,11 +358,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/social-icons" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/prod" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/app" />
-      <recent name="$PROJECT_DIR$/public/app/plain-html-modules" />
-      <recent name="$PROJECT_DIR$/public/css" />
-      <recent name="$PROJECT_DIR$/public/lib" />
+      <recent name="$PROJECT_DIR$/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/app/plain-html-modules/vms" />
@@ -420,8 +418,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.670922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.67140824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -430,7 +429,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,110 +495,107 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/app/common/views/header.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="0" selection-end="1571" vertical-scroll-proportion="-15.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/common/views/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="0" selection-end="786" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/durandal/js/app.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-html-snapshot/node_modules/grunt-lib-phantomjs/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="8" selection-start="3818" selection-end="3818" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/bootstrap/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-html-snapshot/phantomjs/bridge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20464" selection-start="20581" selection-end="20581" vertical-scroll-proportion="0.022590362" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/shell.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="29" selection-start="2988" selection-end="2988" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/shell.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-html-snapshot/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/bin/phantomjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+        <state line="9" column="16" selection-start="303" selection-end="303" vertical-scroll-proportion="3.96">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/durandal/js/plugins/router.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-html-snapshot/node_modules/grunt-lib-phantomjs/phantomjs/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="1" column="22" selection-start="16" selection-end="25" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-html-snapshot/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8058968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="0" selection-end="506" vertical-scroll-proportion="-11.25">
+        <state line="19" column="95" selection-start="480" selection-end="480" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/shell.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-16.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+        <state line="236" column="4" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="81" selection-start="782" selection-end="782" vertical-scroll-proportion="-3.375">
+        <state line="25" column="30" selection-start="1407" selection-end="1407" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/bootstrap/js/bootstrap-carousel.js">
+    <entry file="file://$PROJECT_DIR$/public/app/plain-html-modules/home/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="7" selection-start="4684" selection-end="4684" vertical-scroll-proportion="0.33282208">
+        <state line="180" column="18" selection-start="9746" selection-end="9746" vertical-scroll-proportion="-7.0408163">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/careers/openings/vms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/careers/home/vms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/routes.json">
+    <entry file="file://$PROJECT_DIR$/target/www/lib/require/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/main.js">
+    <entry file="file://$PROJECT_DIR$/target/www/lib/require/require.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/deals/vms/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="25" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="71" selection-start="10244" selection-end="10244" vertical-scroll-proportion="0.84444445">
+        <state line="121" column="43" selection-start="5703" selection-end="5703" vertical-scroll-proportion="-0.25">
           <folding />
         </state>
       </provider>

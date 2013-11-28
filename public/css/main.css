@@ -222,6 +222,19 @@ a.thumbnail:hover .expired{
  p.careers {
     font-size: 15px;
 }
+/*.sprite-Vgulp-On-Facebook{ background-position: 0 0; width: 53px; height: 53px; }
+.sprite-Vgulp-On-Google-Plus{ background-position: 0 -103px; width: 53px; height: 53px; }
+.sprite-Vgulp-On-LinkedIn{ background-position: 0 -206px; width: 53px; height: 53px; }
+.sprite-Vgulp-On-Tumblr{ background-position: 0 -309px; width: 53px; height: 53px; }
+.sprite-Vgulp-On-Twitter{ background-position: 0 -412px; width: 53px; height: 53px; }
+.social-icons li {
+    background:url(../img/social-icons/social-icon-sprite.png) no-repeat top left;
+}
+.social-icons a{
+    display: block;
+    width:53px;
+    height:53px;
+} */
 
 
 
