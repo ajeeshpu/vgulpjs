@@ -3,6 +3,10 @@ body.dark {
     color:#5a5a5a;
     font-family: 'Open sans',Arial;
 }
+.splash{
+    background-color: #eeeeee;
+    color:#b93e43;
+}
 h1,
 h2,
 h3{
