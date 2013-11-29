@@ -1,5 +1,5 @@
 define(['ageGate/vms/ageGate','durandal/system','durandal/app','common/vms/BaseIndex', 'jquery',
-    'bootstrap/bootstrap-carousel','prettyPhoto/jqueryprettyPhoto'],function(AgeGate,system,app,BaseIndex,$){
+    'bootstrap/bootstrap-carousel'],function(AgeGate,system,app,BaseIndex,$){
     var VM=function(data){
          var self=this;
         BaseIndex.call(this,data)
@@ -18,25 +18,35 @@ define(['ageGate/vms/ageGate','durandal/system','durandal/app','common/vms/BaseI
                     $('.spinner').hide("slow");
                 }
             );
-            $("a[rel^='prettyPhoto']").prettyPhoto({
-                default_width: 800,
-                default_height: 460,
-                social_tools: ''
-            });
 
-            require(['domReady!'],function(){
-                AgeGate.show({})
-                $('.try-this').each(function(index,item){
-                    console.log(item,$('div.active').attr('id'))
-                    $(item).click(function(){
-                        console.log("Check this",self.urlHash[$('div.active').attr('id')]);
-                        window.location.hash="#!"+self.urlHash[$('div.active').attr('id')]
-                    })
-                })
-            })
 
         }
-        self.createUrlHash()
+        var acivateSliderLinks=function(){
+            $('.try-this').each(function(index,item){
+                console.log(item,$('div.active').attr('id'))
+                $(item).click(function(){
+                    console.log("Check this",self.urlHash[$('div.active').attr('id')]);
+                    window.location.hash="#!"+self.urlHash[$('div.active').attr('id')]
+                })
+            })
+        }
+        var activateVideo=function(){
+            require(['prettyPhoto/jqueryPrettyPhoto'],function(){
+                $("a[rel^='prettyPhoto']").prettyPhoto({
+                    default_width: 800,
+                    default_height: 460,
+                    social_tools: ''
+                });
+            })
+        }
+        self.init=function(){
+            self.domReadyCallbacks.push(function(){ AgeGate.show({})});
+            self.domReadyCallbacks.push(acivateSliderLinks);
+            self.domReadyCallbacks.push(activateVideo)
+            self.createUrlHash()
+        }
+        self.init();
+
     }
     VM.prototype=Object.create(BaseIndex.prototype)
     return VM;

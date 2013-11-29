@@ -9,8 +9,24 @@ define(['text!common/views/metaDetails.html','common/lib/Routes','jquery','hogan
             self.unloadWidgets();
             includeMetaInHead(appendMetaTags);
             if(loadShareWidgets===undefined || loadShareWidgets===true){
-                loadShareThis();
+                self.domReadyCallbacks.push(loadShareThis);
             }
+            domReady();
+        }
+        self.domReadyCallbacks=[]
+        var domReady=function(){
+            var deferred=$.Deferred()
+            var isDomReady=setInterval(function(){
+                if($("meta[property*='og']").length>0){
+                    deferred.resolve();
+                }
+            },10);
+            deferred.promise().then(function(){
+                clearInterval(isDomReady);
+                for(var i=0;i<self.domReadyCallbacks.length;i++){
+                    self.domReadyCallbacks[i]()
+                }
+            })
         }
         self.unloadWidgets=function(){
             requirejs.undef('shareThis/socialWidgets')
@@ -39,8 +55,9 @@ define(['text!common/views/metaDetails.html','common/lib/Routes','jquery','hogan
             $("meta[name='description']").remove()
         }
         var loadShareThis=function(){
-            require(['domReady!','shareThis/socialWidgets'],function(domReady,socialWidgets){
-            })
+            /*require(['domReady!','shareThis/socialWidgets'],function(domReady,socialWidgets){
+            })*/
+            require(['shareThis/socialWidgets']);
 
         }
         /*self.detached=function(view){
