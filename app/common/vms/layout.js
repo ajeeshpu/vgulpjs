@@ -1,16 +1,1 @@
-define(["text!app/common/views/metaDetails.html","text!app/common/views/header.html",
-    "text!app/common/views/footer.html","app/common/lib/bootstrap-dropdown"],function(metaDetails,header,footer,bootstrap){
-    var Layout=function(){
-       var self=this;
-       self.header=function(){
-           return Hogan.compile(header);
-       }
-       self.footer=function(){
-           return Hogan.compile(footer);
-       }
-       self.metaData=function(){
-           return Hogan.compile(metaDetails)
-       }
-    }
-    return new Layout();
-})
+define(["text!app/common/views/metaDetails.html","text!app/common/views/header.html","text!app/common/views/footer.html","app/common/lib/bootstrap-dropdown"],function(e,t,n,r){var i=function(){var r=this;r.header=function(){return Hogan.compile(t)},r.footer=function(){return Hogan.compile(n)},r.metaData=function(){return Hogan.compile(e)}};return new i});
